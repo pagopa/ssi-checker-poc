@@ -39,6 +39,11 @@ jobs:
             ${{ runner.OS }}-node-
             ${{ runner.OS }}-
 
+      - name: Code Linting
+        run: |
+          npm i --legacy-peer-deps --production=false
+          npm run lint
+
       - name: Build
         run: |
           npm i --legacy-peer-deps --production=false
