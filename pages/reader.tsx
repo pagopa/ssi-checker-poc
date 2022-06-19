@@ -1,10 +1,10 @@
-import { NextPage } from "next";
-import { useState } from "react";
-import { QrReader } from "react-qr-reader";
-import Header from "../components/Header";
+import { NextPage } from 'next';
+import { useRouter } from 'next/router';
+import { QrReader } from 'react-qr-reader';
+import Header from '../components/Header';
 
 const Reader: NextPage = () => {
-  const [data, setData] = useState("No result");
+  const router = useRouter();
   return (
     <>
       <Header />
@@ -13,11 +13,11 @@ const Reader: NextPage = () => {
           aspectRatio: 1,
           width: 300,
           height: 300,
-          facingMode: "environment",
+          facingMode: 'environment',
         }}
         onResult={(result, error) => {
           if (!!result) {
-            setData(result.getText());
+            router.push('/success');
           }
 
           if (!!error) {
@@ -25,7 +25,6 @@ const Reader: NextPage = () => {
           }
         }}
       />
-      <p>{data}</p>
     </>
   );
 };
