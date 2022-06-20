@@ -1,0 +1,12 @@
+.btnBack {
+  background-color: #0073E6;
+  border-radius: 4px;
+  height: 50px;
+  color: white;
+  font-weight: bolder;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
