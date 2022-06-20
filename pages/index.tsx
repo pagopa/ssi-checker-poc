@@ -19,7 +19,7 @@ const Home: NextPage = () => {
       `}</style>
       <div className={styles.top}>
         <p className={styles.title}>ID Checker</p>
-        <p className={styles.username}>Ciao Marta</p>
+        <p className={styles.username}>Ciao Maria Giovanna</p>
         <p>
           ID Checker permette di verificare le Identità digitali dei cittadini
           in modo sicuro e veloce.
