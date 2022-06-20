@@ -34,7 +34,7 @@ const Home: NextPage = () => {
         </p>
         <button
           className={styles.btnChecker}
-          onClick={() => router.push('/success')}
+          onClick={() => router.push('/reader')}
         >
           Inquadra Codice QR
         </button>
