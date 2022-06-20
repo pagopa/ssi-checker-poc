@@ -1,9 +1,11 @@
 import { NextPage } from 'next';
+import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import { QrReader } from 'react-qr-reader';
 import Header from '../components/Header';
 import styles from '../styles/Reader.module.css';
+import square from '../assets/square.png';
 
 const Reader: NextPage = () => {
   const [width, setWidth] = useState(0);
@@ -41,6 +43,9 @@ const Reader: NextPage = () => {
           }
         }}
       />
+      <div className={styles.viewfinder}>
+        <Image src={square} alt={''} />
+      </div>
     </>
   );
 };
