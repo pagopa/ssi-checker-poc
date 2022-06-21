@@ -25,8 +25,6 @@ const Reader: NextPage = () => {
         className={styles.qrReader}
         constraints={{
           aspectRatio: 1,
-          width: width,
-          height: height,
           facingMode: 'environment',
         }}
         videoContainerStyle={{
