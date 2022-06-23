@@ -31,13 +31,9 @@ const Reader: NextPage = () => {
           width: width,
           height: height,
         }}
-        onResult={(result, error) => {
+        onResult={(result) => {
           if (!!result) {
             router.push('/success');
-          }
-
-          if (!!error) {
-            console.info(error);
           }
         }}
       />
