@@ -7,11 +7,10 @@ function MyDocument() {
         <link rel="manifest" href="/manifest.json" />
         <link
           rel="apple-touch-icon"
-          sizes="96x96"
-          href="/assets/icons/icon-96x96.png"
+          sizes="180x180"
+          href="/assets/icons/icon-180x180.png"
         />
-        <meta name="apple-mobile-web-app-status-bar" content="#1976d2" />
-        <meta name="theme-color" content="#fff" />
+        <meta name="theme-color" content="#102DC9" />
       </Head>
       <body>
         <Main />
