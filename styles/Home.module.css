@@ -8,8 +8,7 @@
   color: white;
   height: 50%;
   float: top;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 20px;
 }
 
 .floatDiv {
@@ -29,14 +28,13 @@
   font-size: 30px;
   font-weight: bold;
   text-align: left;
-  margin-top: 10px;
+  margin-top: 0;
 }
 
 .username {
   font-size: 30px;
   font-weight: bolder;
   text-align: left;
-  background-color: antiquewhite;
   margin: 0;
   padding: 0;
 }
@@ -44,7 +42,6 @@
 .details {
   margin: 0;
   padding: 0;
-  background-color: red;
 }
 
 .boxTitle {
