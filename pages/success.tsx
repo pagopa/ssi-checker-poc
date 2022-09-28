@@ -39,10 +39,10 @@ const Success: NextPage = () => {
             </div>
             <div className={styles.row}>
               <div className={styles.cellLeft}>
-                <p className={styles.cellContent}>Maria Giovanna</p>
+                <p className={styles.cellContent}>Vittorio</p>
               </div>
               <div className={styles.cellRight}>
-                <p className={styles.cellContent}>Rossi</p>
+                <p className={styles.cellContent}>Colao</p>
               </div>
             </div>
             <div className={styles.row}>
@@ -58,15 +58,23 @@ const Success: NextPage = () => {
                 <p className={styles.cellContent}>01/01/1980</p>
               </div>
               <div className={styles.cellRight}>
-                <p className={styles.cellContent}>A30A01H50</p>
+                <p className={styles.cellContent}>U192B850K</p>
               </div>
             </div>
             <div className={styles.row}>
               <div className={styles.cellLeft}>
-                <p className={styles.cellHeader}>Tipo di licenza</p>
+                <p className={styles.cellHeader}>Tipo</p>
               </div>
               <div className={styles.cellRight}>
-                <p className={styles.cellHeader}>Data di rilascio</p>
+                <p className={styles.cellHeader}>Valido dal</p>
+              </div>
+            </div>
+            <div className={styles.row}>
+              <div className={styles.cellLeft}>
+                <p className={styles.cellContent}>A</p>
+              </div>
+              <div className={styles.cellRight}>
+                <p className={styles.cellContent}>27/10/2010</p>
               </div>
             </div>
             <div className={styles.row}>
@@ -74,7 +82,7 @@ const Success: NextPage = () => {
                 <p className={styles.cellContent}>B</p>
               </div>
               <div className={styles.cellRight}>
-                <p className={styles.cellContent}>08/03/2017</p>
+                <p className={styles.cellContent}>12/05/1996</p>
               </div>
             </div>
             <div className={styles.row}>
@@ -84,7 +92,7 @@ const Success: NextPage = () => {
             </div>
             <div className={styles.row}>
               <div className={styles.cellLeft}>
-                <p className={styles.cellContent}>08/03/2027</p>
+                <p className={styles.cellContent}>03/10/2025</p>
               </div>
             </div>
           </div>
